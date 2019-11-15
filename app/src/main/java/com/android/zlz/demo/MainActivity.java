@@ -48,8 +48,13 @@ public class MainActivity extends BaseActivity {
         ListItemData itemData = new ListItemData();
         itemData.title = "基础UI组件";
         itemData.action = "demo://android/views";
-
         itemDataList.add(itemData);
+
+        itemData = new ListItemData();
+        itemData.title = "动画相关";
+        itemData.action = "demo://android/animators";
+        itemDataList.add(itemData);
+
         return itemDataList;
     }
 

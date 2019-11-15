@@ -32,6 +32,21 @@
                    android:path="/views"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AnimatorActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="demo"
+                    android:host="android"
+                    android:path="/animators"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
