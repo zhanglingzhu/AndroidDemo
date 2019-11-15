@@ -1,8 +1,6 @@
 package com.android.zlz.demo;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -14,7 +12,7 @@ import com.android.zlz.demo.view.ViewTypeConstant;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ViewActivity extends AppCompatActivity {
+public class ViewActivity extends BaseActivity {
 
     private RecyclerView mRecyclerView;
     private View mContainerView;
@@ -63,6 +61,7 @@ public class ViewActivity extends AppCompatActivity {
 
     private void showItemFragment(int itemId){
         mContainerView.setVisibility(View.VISIBLE);
+
     }
 
 }

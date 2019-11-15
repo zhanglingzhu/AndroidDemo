@@ -1,8 +1,8 @@
 package com.android.zlz.demo;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -12,12 +12,13 @@ import com.android.zlz.demo.entity.ListItemData;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     private RecyclerView mMainRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mMainRecyclerView = findViewById(R.id.recycler_view);
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(ListItemData itemData) {
                 try {
                     Intent intent = new Intent();
-                    intent.setAction(itemData.action);
+                    intent.setData(Uri.parse(itemData.action));
                     MainActivity.this.startActivity(intent);
                 } catch (Exception e) {
                     e.printStackTrace();
