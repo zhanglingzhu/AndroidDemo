@@ -1,0 +1,185 @@
+[
+  {
+    "contentId": 9959,
+    "data": {
+      "keywords": [
+        {
+          "type": "TEXT",
+          "action": {
+            "extra": {
+              "mscode": "2019061000",
+              "parentChannelId": 100670,
+              "apiName": "mtop.youku.columbus.home.query",
+              "channelKey": "MOVIE",
+              "bizKey": "MAIN_TEST2",
+              "parentChannelTitle": "电影",
+              "nodeKey": "MOVIE",
+              "title": "电影",
+              "value": "100670",
+              "parentChannelKey": "MOVIE",
+              "channelId": "100670"
+            },
+            "report": {
+              "index": 1,
+              "pageName": "page_homeselect",
+              "scmAB": "20140719.manual",
+              "scmC": "9959",
+              "scmD": "channel_MOVIE",
+              "spmAB": "a2h04.8165646",
+              "spmC": "drawer4",
+              "spmD": "keyword1",
+              "trackInfo": {
+                "drawerid": "9959",
+                "bizKey": "MAIN_TEST2",
+                "sam": "1007.110529.614.138237",
+                "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+              }
+            },
+            "type": "JUMP_TO_CHANNEL",
+            "value": "MOVIE"
+          },
+          "text": "电影频道"
+        }
+      ],
+      "title": "正在热播"
+    },
+    "id": 9959,
+    "level": 1,
+    "more": false,
+    "template_name" : "phone_base_b",
+    "nodes": [
+      {
+        "contentId": 25107,
+        "data": {
+          "enableNewLine": "0"
+        },
+        "id": 25107,
+        "level": 2,
+        "nodes": [
+          {
+            "contentId": "1099261663",
+            "data": {
+              "summary": "更新至54集",
+              "img": "http://liangcang-material.alicdn.com/prod/upload/4ac7571e24724291889591ec34b544af.jpg",
+              "popPreview": {
+                "favorId": "XNDM5NzA0NjY1Mg==",
+                "favorType": 1,
+                "title": "梅毅说中国史"
+              },
+              "summaryType": "UPDATE_STATUS",
+              "title": "中国史独播",
+              "subtitle": "推翻王莽政权第一功臣被冤死",
+              "action": {
+                "extra": {
+                  "mode": "full_horizontal",
+                  "showId": 442272
+                },
+                "report": {
+                  "index": 5,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "9959",
+                  "scmD": "video_XNDM5NzA0NjY1Mg==",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer4",
+                  "spmD": "zj1_5",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_B",
+                    "meta_match_id": "1099261663:1:HOME_PAGE:177",
+                    "meta_id": "liangcang_25535649",
+                    "component_instance_id": 25107,
+                    "alginfo": "-1rkBiz-2pandora_classifier_hotrec_lr_model8-1rkScore-20.40940-1pn-21-1rcType-2PUBLISHID2I-1rcTrig-24075-1sceneId-29634-1abId-2109693",
+                    "meta_sam": "1007.18532.621.136422",
+                    "req_id": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "drawerid": "9959",
+                    "recext": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "meta_alginfo": "-1ab_id-2abid=138048,pvid=17947411+91d4+4de2+aec0+bca03bcbc069-1meta_match_id-21099261663:1:HOME_PAGE:177-1mid-225535649,25535664,25535663-1rscore-29.152082493528724E+4,8.819467620924115E+4,8.174484828487039E+4-1mc_sceneId-213708-1mc_abId-2136422",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "liangcang_25535649",
+                    "meta_req_id": "reqid=265a0d4a-8cc8-41d6-b68a-7da77ff86252",
+                    "sam": "1007.15166.611.109693",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_VIDEO",
+                "value": "XNDM5NzA0NjY1Mg=="
+              },
+              "mark": {
+                "data": {
+                  "color": "RED",
+                  "text": "独播"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14001
+          },
+          {
+            "contentId": "472231",
+            "data": {
+              "summary": "更新至19集",
+              "img": "http://liangcang-material.alicdn.com/prod/upload/3e7e6db188ce4f9590c23cb88196bc4f.jpg",
+              "popPreview": {
+                "favorId": "efbfbd6177efbfbd012c",
+                "favorType": 0,
+                "title": "樊登讲论语 第一季"
+              },
+              "summaryType": "UPDATE_STATUS",
+              "title": "樊登讲论语自我和解",
+              "subtitle": "三十而立是要有自己的专长",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 6,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "9959",
+                  "scmD": "show_efbfbd6177efbfbd012c",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer4",
+                  "spmD": "zj1_6",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_B",
+                    "meta_match_id": "472231:2:HOME_PAGE:177",
+                    "meta_id": "liangcang_25734081",
+                    "component_instance_id": 25107,
+                    "alginfo": "-1rkBiz-2pandora_classifier_hotrec_lr_model8-1rkScore-20.40067-1pn-21-1rcType-2PUBLISHID2I-1rcTrig-24075-1sceneId-29634-1abId-2109693",
+                    "meta_sam": "1007.18532.621.136422",
+                    "req_id": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "drawerid": "9959",
+                    "recext": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "meta_alginfo": "-1ab_id-2abid=138048,pvid=17947411+91d4+4de2+aec0+bca03bcbc069-1meta_match_id-2472231:2:HOME_PAGE:177-1mid-225734081,25258802,25652702-1rscore-20.0018921379232779145,0.0016316892579197884,0.0010549125727266073-1mc_sceneId-213708-1mc_abId-2136422",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "liangcang_25734081",
+                    "meta_req_id": "reqid=265a0d4a-8cc8-41d6-b68a-7da77ff86252",
+                    "sam": "1007.15166.611.109693",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "efbfbd6177efbfbd012c"
+              },
+              "mark": {
+                "data": {
+                  "color": "RED",
+                  "text": "独播"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14001
+          }
+        ],
+        "type": 14001,
+        "typeName": "PHONE_BASE_B"
+      }
+    ],
+    "style": {
+      "moduleTitleType": 1
+    }
+  }
+]
