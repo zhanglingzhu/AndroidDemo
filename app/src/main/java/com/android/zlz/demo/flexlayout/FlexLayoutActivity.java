@@ -21,7 +21,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -33,9 +34,9 @@ public class FlexLayoutActivity extends BaseActivity {
     private LinearLayout layout;
 
     private Map<String, Template> mTemplateMap = new ArrayMap<>();
-    private Map<String, JSONObject> mDataJsonMap = new ArrayMap<>();
+    private List<JSONObject> mDataList = new ArrayList<>();
 
-    private Map<String, YogaNode> mYogaNodeMap = new ArrayMap<>();
+    private List<YogaNode> mYogaNodes = new ArrayList<>();
 
     private YKDynamicManager ykDynamicManager;
 
@@ -55,17 +56,17 @@ public class FlexLayoutActivity extends BaseActivity {
                 try {
                     loadTemplateData();
                     loadData();
-                    Iterator<String> iterator = mDataJsonMap.keySet().iterator();
-                    long now = System.currentTimeMillis();
-                    while (iterator.hasNext()) {
-                        String templateName = iterator.next();
-                        if (mTemplateMap.get(templateName) != null && mDataJsonMap.get(templateName) != null) {
-                            YogaNode yogaNode = ykDynamicManager.createTemplateYogaNode(mTemplateMap.get(templateName),
-                                mDataJsonMap.get(templateName));
-                            mYogaNodeMap.put(templateName, yogaNode);
+                    for (JSONObject jsonObject : mDataList) {
+                        if (jsonObject.containsKey("template_name")) {
+                            String templateName = jsonObject.getString("template_name");
+                            if (mTemplateMap.containsKey(templateName)) {
+                                Template template = mTemplateMap.get(templateName).copy();
+                                YogaNode yogaNode = ykDynamicManager.createTemplateYogaNode(template, jsonObject);
+                                mYogaNodes.add(yogaNode);
+                            }
                         }
                     }
-                    Log.d("zlztest", "createTemplateYogaNode cost " + (System.currentTimeMillis() - now));
+                    //Log.d("zlztest", "createTemplateYogaNode cost " + (System.currentTimeMillis() - now));
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -76,10 +77,9 @@ public class FlexLayoutActivity extends BaseActivity {
             @Override
             protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
-                Iterator<String> iterator = mYogaNodeMap.keySet().iterator();
                 long now = System.currentTimeMillis();
-                while (iterator.hasNext()) {
-                    View view = ykDynamicManager.createView(mYogaNodeMap.get(iterator.next()), FlexLayoutActivity.this);
+                for (YogaNode yogaNode : mYogaNodes) {
+                    View view = ykDynamicManager.createView(yogaNode, FlexLayoutActivity.this);
                     if (view != null) {
                         layout.addView(view);
                     }
@@ -133,7 +133,7 @@ public class FlexLayoutActivity extends BaseActivity {
             if (jsonObject == null || !jsonObject.containsKey("template_name")) {
                 continue;
             }
-            mDataJsonMap.put(jsonObject.getString("template_name"), jsonObject);
+            mDataList.add(jsonObject);
         }
     }
 

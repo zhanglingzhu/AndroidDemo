@@ -19,9 +19,6 @@ public class Template implements Serializable {
 
     public NodeLayout layout;
 
-    public String bgColor;
-    public String bgImg;
-
 
     public static Template format(JSONObject jsonObject, Template template) {
         if (template == null) {
@@ -46,7 +43,23 @@ public class Template implements Serializable {
                 template.nodes = nodes;
             }
         }
-        template.bgColor = getStringFromJsonObject("background-color", jsonObject);
+        return template;
+    }
+
+    public Template copy(){
+        Template template = new Template();
+        template.name = this.name;
+        if (nodes != null){
+            List<Node> list = new ArrayList<>();
+            for (Node n : nodes){
+                list.add(n.copy());
+            }
+            template.nodes = list;
+        }
+
+        if (this.layout != null){
+            template.layout = this.layout.copy();
+        }
         return template;
     }
     public static class Node implements Serializable {
@@ -56,7 +69,6 @@ public class Template implements Serializable {
         public String text;
         public int textSize;
         public String textColor;
-        public String bgColor;
 
 
         public NodeLayout layout;
@@ -74,18 +86,48 @@ public class Template implements Serializable {
                 JSONObject layout = jsonObject.getJSONObject("layout");
                 node.layout = NodeLayout.format(layout, null);
             }
+            if (jsonObject.containsKey("nodes")) {
+                JSONArray jsonArray = jsonObject.getJSONArray("nodes");
+                if (jsonArray != null && !jsonArray.isEmpty()) {
+                    List<Node> nodes = new ArrayList<>();
+                    for (int i = 0; i < jsonArray.size(); i++) {
+                        nodes.add(Node.format(jsonArray.getJSONObject(i), null));
+                    }
+                    node.nodes = nodes;
+                }
+            }
             node.type = getStringFromJsonObject("type", jsonObject);
             node.img = getStringFromJsonObject("img", jsonObject);
             node.text = getStringFromJsonObject("text", jsonObject);
             node.textColor = getStringFromJsonObject("textcolor", jsonObject);
             node.textSize = getIntFromJsonObject("textsize", jsonObject);
-            node.bgColor = getStringFromJsonObject("background-color", jsonObject);
 
             return node;
         }
 
         public boolean hasChild(){
             return nodes != null && !nodes.isEmpty();
+        }
+
+        public Node copy(){
+            Node node = new Node();
+            node.type = this.type;
+            node.img = this.img;
+            node.text = this.text;
+            node.textSize = this.textSize;
+            node.textColor = this.textColor;
+            if (this.layout != null){
+                node.layout = this.layout.copy();
+            }
+            if (nodes != null){
+                List<Node> list = new ArrayList<>();
+                for (Node n : nodes){
+                    list.add(n.copy());
+                }
+                node.nodes = list;
+            }
+
+            return node;
         }
 
     }
@@ -116,6 +158,9 @@ public class Template implements Serializable {
         public int paddingTop;
         public int paddingBottom;
         public int paddingRight;
+
+        public String bgColor;
+        public String bgImg;
 
 
         public static NodeLayout format(JSONObject jsonObject, NodeLayout layout){
@@ -151,7 +196,42 @@ public class Template implements Serializable {
             layout.minHeight = getIntFromJsonObject("min-height", jsonObject);
             layout.minWidth = getIntFromJsonObject("min-width", jsonObject);
 
+            layout.bgColor = getStringFromJsonObject("background-color", jsonObject);
+
             return layout;
+        }
+
+        public NodeLayout copy(){
+            NodeLayout nodeLayout = new NodeLayout();
+            nodeLayout.margin = this.margin;
+            nodeLayout.border = this.border;
+            nodeLayout.flexDirection = this.flexDirection;
+            nodeLayout.alignContent = this.alignContent;
+            nodeLayout.justifyContent = this.justifyContent;
+
+            nodeLayout.marginLeft = this.marginLeft;
+            nodeLayout.marginRight = this.marginRight;
+            nodeLayout.marginTop = this.marginTop;
+            nodeLayout.marginBottom = this.marginBottom;
+
+            nodeLayout.maxWidth = this.maxWidth;
+            nodeLayout.maxHeight = this.maxHeight;
+
+            nodeLayout.minWidth = this.minWidth;
+            nodeLayout.minHeight = this.minHeight;
+
+            nodeLayout.width = this.width;
+            nodeLayout.height = this.height;
+
+            nodeLayout.padding = this.padding;
+            nodeLayout.paddingLeft = this.paddingLeft;
+            nodeLayout.paddingTop = this.paddingTop;
+            nodeLayout.paddingBottom = this.paddingBottom;
+            nodeLayout.paddingRight = this.paddingRight;
+
+            nodeLayout.bgColor = this.bgColor;
+            nodeLayout.bgImg = this.bgImg;
+            return nodeLayout;
         }
 
     }

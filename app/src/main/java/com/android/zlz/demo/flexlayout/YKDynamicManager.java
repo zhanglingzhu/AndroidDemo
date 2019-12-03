@@ -5,7 +5,9 @@ import android.graphics.Color;
 import android.os.Build;
 import android.text.StaticLayout;
 import android.text.TextPaint;
+import android.text.TextUtils;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -72,13 +74,14 @@ public class YKDynamicManager {
     }
 
     public YogaNode createYogaNode(Template.Node node, JSONObject jsonObject) {
+
         YogaNode yogaNode = new YogaNode();
         formatWH(yogaNode, node, jsonObject);
         formatLayoutAttr(yogaNode, node.layout, node.hasChild());
         if (node.hasChild()) {
             for (int i = 0; i < node.nodes.size(); i++) {
                 Template.Node childnode = node.nodes.get(i);
-                yogaNode.addChildAt(createYogaNode(Template.Node.format(jsonObject, childnode), jsonObject), i);
+                yogaNode.addChildAt(createYogaNode(childnode, jsonObject), i);
             }
         }
         return yogaNode;
@@ -124,6 +127,7 @@ public class YKDynamicManager {
             yogaNode.setData(node);
 
         } else {
+
             if (node.layout.width > 0) {
                 int width = getPixel(node.layout.width);
                 yogaNode.setWidth(width);
@@ -132,6 +136,7 @@ public class YKDynamicManager {
             if (node.layout.height > 0) {
                 yogaNode.setHeight(getPixel(node.layout.height));
             }
+            yogaNode.setData(node);
         }
 
         return yogaNode;
@@ -170,10 +175,19 @@ public class YKDynamicManager {
                 if (childView != null) {
                     viewGroup.addView(childView);
                 }
-                view = viewGroup;
             }
+            Template.Node node = (Template.Node)yogaNode.getData();
+            if (node != null && node.layout != null){
+                if (!TextUtils.isEmpty(node.layout.bgColor)){
+                    viewGroup.setBackgroundColor(Color.parseColor(node.layout.bgColor));
+                }
+            }
+            view = viewGroup;
         } else {
             Template.Node node = (Template.Node)yogaNode.getData();
+            if (node == null){
+                return null;
+            }
             if ("text".equals(node.type)) {
                 TextView textView = new TextView(context);
                 textView.setX(yogaNode.getLayoutX());
@@ -191,6 +205,7 @@ public class YKDynamicManager {
                 }
                 view = textView;
 
+
             } else if ("img".equals(node.type)) {
                 ImageView imageView = new ImageView(context);
                 imageView.setX(yogaNode.getLayoutX());
@@ -200,7 +215,7 @@ public class YKDynamicManager {
 
                 Glide.with(context).load(node.img).placeholder(R.color.colorGrey).into(imageView);
 
-                imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+                imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
                 view = imageView;
             }
         }

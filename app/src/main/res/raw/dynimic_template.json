@@ -3,46 +3,263 @@
     {
       "name": "phone_base_b",
       "layout": {
-        "flex-direction": "column",
+        "flex-direction": "row",
         "align-content": "flex-start",
         "justify-content": "flex-start",
         "border": 0,
-        "margin": 6,
-        "width" : 175,
-        "height" : 150
+        "margin-bottom": 5,
+        "margin-top" : 5,
+        "width": 375,
+        "height": 160
       },
       "nodes": [
         {
-          "type": "img",
-          "img": "@data{nodes[0].nodes[0].data.img}",
-          "ratio": "p1s1",
           "layout": {
-            "margin": 0,
+            "flex-direction": "column",
             "align-content": "flex-start",
-            "width" : 175,
-            "height" : 98
-          }
+            "justify-content": "flex-start",
+            "border": 0,
+            "margin" : 6,
+            "width": 175,
+            "height": 150,
+            "background-color": "#e5e5e5"
+          },
+          "nodes": [
+            {
+              "type": "img",
+              "img": "@data{nodes[0].nodes[0].data.img}",
+              "ratio": "p1s1",
+              "layout": {
+                "margin": 0,
+                "align-content": "flex-start",
+                "width": 175,
+                "height": 98
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[0].data.title}",
+              "textsize": 15,
+              "textcolor": "#FF000000",
+              "layout": {
+                "margin-top": 6,
+                "align-content": "flex-start"
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[0].data.subtitle}",
+              "textsize": 12,
+              "textcolor": "#FF999999",
+              "layout": {
+                "align-content": "flex-start",
+                "margin-top" : 4
+              }
+            }
+          ]
         },
         {
-          "type": "text",
-          "text": "@data{nodes[0].nodes[0].data.title}",
-          "textsize": 20,
-          "textcolor": "#FE2E2E",
           "layout": {
-            "margin": 0,
-            "align-content": "flex-start"
-          }
-        },
-        {
-          "type": "text",
-          "text": "@data{nodes[0].nodes[0].data.subtitle}",
-          "textsize": 15,
-          "textcolor": "#FE2E2E",
-          "layout": {
-            "align-content": "flex-start"
-
-          }
+            "flex-direction": "column",
+            "align-content": "flex-start",
+            "justify-content": "flex-start",
+            "border": 0,
+            "margin" : 6,
+            "width": 175,
+            "height": 150,
+            "background-color": "#e5e5e5"
+          },
+          "nodes": [
+            {
+              "type": "img",
+              "img": "@data{nodes[0].nodes[1].data.img}",
+              "ratio": "p1s1",
+              "layout": {
+                "margin": 0,
+                "align-content": "flex-start",
+                "width": 175,
+                "height": 98
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[1].data.title}",
+              "textsize": 15,
+              "textcolor": "#FF000000",
+              "layout": {
+                "margin-top": 6,
+                "align-content": "flex-start"
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[0].data.subtitle}",
+              "textsize": 12,
+              "textcolor": "#FF999999",
+              "layout": {
+                "align-content": "flex-start",
+                "margin-top" : 4
+              }
+            }
+          ]
         }
+      ]
+    },
+    {
+      "name": "phone_base_c",
+      "layout": {
+        "flex-direction": "row",
+        "align-content": "flex-start",
+        "justify-content": "flex-start",
+        "border": 0,
+        "margin-bottom": 5,
+        "margin-top" : 5,
+        "width": 375,
+        "height": 220
+      },
+      "nodes": [
+        {
+          "layout": {
+            "flex-direction": "column",
+            "align-content": "flex-start",
+            "justify-content": "flex-start",
+            "border": 0,
+            "margin-left" : 6,
+            "margin-top" : 6,
+            "margin-right": 3,
+            "width": 117,
+            "height": 210,
+            "background-color": "#e5e5e5"
+          },
+          "nodes": [
+            {
+              "type": "img",
+              "img": "@data{nodes[0].nodes[0].data.img}",
+              "ratio": "p1s1",
+              "layout": {
+                "margin": 0,
+                "align-content": "flex-start",
+                "width": 117,
+                "height": 156
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[0].data.title}",
+              "textsize": 15,
+              "textcolor": "#FF000000",
+              "layout": {
+                "margin-top": 6,
+                "align-content": "flex-start"
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[0].data.subtitle}",
+              "textsize": 12,
+              "textcolor": "#FF999999",
+              "layout": {
+                "align-content": "flex-start",
+                "margin-top" : 4
+              }
+            }
+          ]
+        },
+        {
+          "layout": {
+            "flex-direction": "column",
+            "align-content": "flex-start",
+            "justify-content": "flex-start",
+            "border": 0,
+            "margin-left" : 3,
+            "margin-top" : 6,
+            "margin-right": 3,
+            "width": 117,
+            "height": 210,
+            "background-color": "#e5e5e5"
+          },
+          "nodes": [
+            {
+              "type": "img",
+              "img": "@data{nodes[0].nodes[1].data.img}",
+              "ratio": "p1s1",
+              "layout": {
+                "margin": 0,
+                "align-content": "flex-start",
+                "width": 117,
+                "height": 156
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[1].data.title}",
+              "textsize": 15,
+              "textcolor": "#FF000000",
+              "layout": {
+                "margin-top": 6,
+                "align-content": "flex-start"
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[1].data.subtitle}",
+              "textsize": 12,
+              "textcolor": "#FF999999",
+              "layout": {
+                "align-content": "flex-start",
+                "margin-top" : 4
+              }
+            }
+          ]
+        },
+        {
+          "layout": {
+            "flex-direction": "column",
+            "align-content": "flex-start",
+            "justify-content": "flex-start",
+            "border": 0,
+            "margin-left" : 3,
+            "margin-top" : 6,
+            "margin-right": 6,
+            "width": 117,
+            "height": 210,
+            "background-color": "#e5e5e5"
+          },
+          "nodes": [
+            {
+              "type": "img",
+              "img": "@data{nodes[0].nodes[2].data.img}",
+              "ratio": "p1s1",
+              "layout": {
+                "margin": 0,
+                "align-content": "flex-start",
+                "width": 117,
+                "height": 156
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[2].data.title}",
+              "textsize": 15,
+              "textcolor": "#FF000000",
+              "layout": {
+                "margin-top": 6,
+                "align-content": "flex-start"
+              }
+            },
+            {
+              "type": "text",
+              "text": "@data{nodes[0].nodes[2].data.subtitle}",
+              "textsize": 12,
+              "textcolor": "#FF999999",
+              "layout": {
+                "align-content": "flex-start",
+                "margin-top" : 4
+              }
+            }
+          ]
+        }
+
       ]
     }
   ]

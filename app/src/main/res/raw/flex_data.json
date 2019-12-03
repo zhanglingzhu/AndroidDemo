@@ -46,7 +46,7 @@
     "id": 9959,
     "level": 1,
     "more": false,
-    "template_name" : "phone_base_b",
+    "template_name": "phone_base_b",
     "nodes": [
       {
         "contentId": 25107,
@@ -181,5 +181,1270 @@
     "style": {
       "moduleTitleType": 1
     }
+  },
+  {
+    "template_name": "phone_base_c",
+    "contentId": 14661,
+    "data": {
+      "session": {
+        "scmB": "manual",
+        "scmA": "20140719",
+        "scmC": "14661",
+        "spmA": "a2h04",
+        "spmC": "drawer7",
+        "spmB": "8165646",
+        "index": "7",
+        "id": "14661",
+        "pageName": "page_homeselect",
+        "preload": 0,
+        "scene": "home_drawer"
+      },
+      "title": "为你推荐",
+      "bizContext": {
+        "ucAdParams": {
+          "ucPreload": 1,
+          "adsPageNo": 5,
+          "isSync": 1
+        },
+        "mamaAdParams": {
+          "bd": "Xiaomi",
+          "isp": "%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8_46001",
+          "pid": "9a89d83e08103905",
+          "ua": "Mozilla%2F5.0+%28Linux%3B+Android+10%3B+MI+9+Build%2FQKQ1.190716.003%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F43.0.2357.65+Mobile+Safari%2F537.36",
+          "mac": "A8:9C:ED:9B:E6:E4",
+          "bt": "phone",
+          "rst": "mp4",
+          "osv": "10",
+          "aaid": "",
+          "dvh": "2340",
+          "net": "1000",
+          "oaid": "c71275cfe2d0b94a",
+          "avs": "8.0.8.9999",
+          "wintype": "mdevice",
+          "real_ipv4": "106.11.41.194",
+          "dvw": "1080",
+          "im": "",
+          "os": "Android",
+          "sver": "4.1.57",
+          "utdid": "XMvd3rMiyVYDALuV9UxugkP%2F",
+          "p": "2002",
+          "site": "1",
+          "stoken": "",
+          "mdl": "MI+9",
+          "aw": "a",
+          "aid": "a239cbd3aeb33b59",
+          "vs": "1.0"
+        },
+        "nodeSortType": "RCMD",
+        "preload": "1",
+        "userNodeKeyLastTime": "0"
+      },
+      "bizKey": "MAIN_TEST2",
+      "nodeKey": "SELECTION"
+    },
+    "id": 14661,
+    "level": 1,
+    "more": false,
+    "nodes": [
+      {
+        "contentId": 53227,
+        "data": {
+          "enableNewLine": "0"
+        },
+        "id": 53227,
+        "level": 2,
+        "nodes": [
+          {
+            "contentId": 489961,
+            "data": {
+              "summary": "05:32",
+              "img": "https://vthumb.ykimg.com/054101015DC943288B6C0693CB87367B",
+              "summaryType": "SECONDS",
+              "title": "康熙犀利拷问嘉宾情感状态",
+              "subtitle": "康熙回归探访明星好物",
+              "action": {
+                "extra": {
+                  "mode": "full_horizontal",
+                  "showId": 416789
+                },
+                "report": {
+                  "index": 1,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.manual",
+                  "scmC": "14661",
+                  "scmD": "video_XNDQzMjgzMDA2MA==",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_1",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "object_title": "康熙犀利拷问嘉宾情感状态",
+                    "drawerid": "14661",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "plato_489961_39149db2bf55e304316b93793d321451",
+                    "sam": "1007.110529.614.138237",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_VIDEO",
+                "value": "XNDQzMjgzMDA2MA=="
+              }
+            },
+            "id": 489961,
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "308528",
+            "data": {
+              "summary": "58集全",
+              "img": "http://r1.ykimg.com/052600005D5F47EC8B74390AF400FD45",
+              "summaryType": "UPDATE_STATUS",
+              "title": "三生三世十里桃花",
+              "subtitle": "三世爱恨四海八荒",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 2,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_387477fb41a011e69c81",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_2",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "387477fb41a011e69c81"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "HDR"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "317679",
+            "data": {
+              "summary": "63集全",
+              "img": "http://r1.ykimg.com/052600005D5F48598B7439D6560A78C3",
+              "summaryType": "UPDATE_STATUS",
+              "title": "香蜜沉沉烬如霜 TV版",
+              "subtitle": "邓伦杨紫追爱千年",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 3,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_69efbfbdefbfbd343a00",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_3",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "69efbfbdefbfbd343a00"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "VIP"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "13339",
+            "data": {
+              "summary": "98集全",
+              "img": "http://r1.ykimg.com/052600005D0C9561425BD933A5E6CE34",
+              "summaryType": "UPDATE_STATUS",
+              "title": "新还珠格格",
+              "subtitle": "真假格格忙认亲",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 4,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_cbfc1d7a962411de83b1",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_4",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "cbfc1d7a962411de83b1"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "HDR"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "311688",
+            "data": {
+              "summary": "49集全",
+              "img": "http://r1.ykimg.com/052600005D2439D1425BD93525E96506",
+              "summaryType": "UPDATE_STATUS",
+              "title": "拥抱幸福",
+              "subtitle": "灰姑娘海陆追梦记",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 5,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_c4d9196da01311e6b9bb",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_5",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "c4d9196da01311e6b9bb"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "HDR"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "311944",
+            "data": {
+              "summary": "32集全",
+              "img": "http://r1.ykimg.com/052600005D142366425BD9189FEABD71",
+              "summaryType": "UPDATE_STATUS",
+              "title": "周末父母 TV版",
+              "subtitle": "刘恺威变暖心奶爸",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 6,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_8d92e544a7b911e68fae",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_6",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "8d92e544a7b911e68fae"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "HDR"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          }
+        ],
+        "type": 14002,
+        "typeName": "PHONE_BASE_C"
+      }
+    ],
+    "style": {
+      "moduleTitleType": 1
+    },
+    "type": 15011
+  },
+  {
+    "contentId": 9959,
+    "data": {
+      "keywords": [
+        {
+          "type": "TEXT",
+          "action": {
+            "extra": {
+              "mscode": "2019061000",
+              "parentChannelId": 100670,
+              "apiName": "mtop.youku.columbus.home.query",
+              "channelKey": "MOVIE",
+              "bizKey": "MAIN_TEST2",
+              "parentChannelTitle": "电影",
+              "nodeKey": "MOVIE",
+              "title": "电影",
+              "value": "100670",
+              "parentChannelKey": "MOVIE",
+              "channelId": "100670"
+            },
+            "report": {
+              "index": 1,
+              "pageName": "page_homeselect",
+              "scmAB": "20140719.manual",
+              "scmC": "9959",
+              "scmD": "channel_MOVIE",
+              "spmAB": "a2h04.8165646",
+              "spmC": "drawer4",
+              "spmD": "keyword1",
+              "trackInfo": {
+                "drawerid": "9959",
+                "bizKey": "MAIN_TEST2",
+                "sam": "1007.110529.614.138237",
+                "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+              }
+            },
+            "type": "JUMP_TO_CHANNEL",
+            "value": "MOVIE"
+          },
+          "text": "电影频道"
+        }
+      ],
+      "title": "正在热播"
+    },
+    "id": 9959,
+    "level": 1,
+    "more": false,
+    "template_name": "phone_base_b",
+    "nodes": [
+      {
+        "contentId": 25107,
+        "data": {
+          "enableNewLine": "0"
+        },
+        "id": 25107,
+        "level": 2,
+        "nodes": [
+          {
+            "contentId": "1099261663",
+            "data": {
+              "summary": "更新至54集",
+              "img": "http://liangcang-material.alicdn.com/prod/upload/4ac7571e24724291889591ec34b544af.jpg",
+              "popPreview": {
+                "favorId": "XNDM5NzA0NjY1Mg==",
+                "favorType": 1,
+                "title": "梅毅说中国史"
+              },
+              "summaryType": "UPDATE_STATUS",
+              "title": "中国史独播",
+              "subtitle": "推翻王莽政权第一功臣被冤死",
+              "action": {
+                "extra": {
+                  "mode": "full_horizontal",
+                  "showId": 442272
+                },
+                "report": {
+                  "index": 5,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "9959",
+                  "scmD": "video_XNDM5NzA0NjY1Mg==",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer4",
+                  "spmD": "zj1_5",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_B",
+                    "meta_match_id": "1099261663:1:HOME_PAGE:177",
+                    "meta_id": "liangcang_25535649",
+                    "component_instance_id": 25107,
+                    "alginfo": "-1rkBiz-2pandora_classifier_hotrec_lr_model8-1rkScore-20.40940-1pn-21-1rcType-2PUBLISHID2I-1rcTrig-24075-1sceneId-29634-1abId-2109693",
+                    "meta_sam": "1007.18532.621.136422",
+                    "req_id": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "drawerid": "9959",
+                    "recext": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "meta_alginfo": "-1ab_id-2abid=138048,pvid=17947411+91d4+4de2+aec0+bca03bcbc069-1meta_match_id-21099261663:1:HOME_PAGE:177-1mid-225535649,25535664,25535663-1rscore-29.152082493528724E+4,8.819467620924115E+4,8.174484828487039E+4-1mc_sceneId-213708-1mc_abId-2136422",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "liangcang_25535649",
+                    "meta_req_id": "reqid=265a0d4a-8cc8-41d6-b68a-7da77ff86252",
+                    "sam": "1007.15166.611.109693",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_VIDEO",
+                "value": "XNDM5NzA0NjY1Mg=="
+              },
+              "mark": {
+                "data": {
+                  "color": "RED",
+                  "text": "独播"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14001
+          },
+          {
+            "contentId": "472231",
+            "data": {
+              "summary": "更新至19集",
+              "img": "http://liangcang-material.alicdn.com/prod/upload/3e7e6db188ce4f9590c23cb88196bc4f.jpg",
+              "popPreview": {
+                "favorId": "efbfbd6177efbfbd012c",
+                "favorType": 0,
+                "title": "樊登讲论语 第一季"
+              },
+              "summaryType": "UPDATE_STATUS",
+              "title": "樊登讲论语自我和解",
+              "subtitle": "三十而立是要有自己的专长",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 6,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "9959",
+                  "scmD": "show_efbfbd6177efbfbd012c",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer4",
+                  "spmD": "zj1_6",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_B",
+                    "meta_match_id": "472231:2:HOME_PAGE:177",
+                    "meta_id": "liangcang_25734081",
+                    "component_instance_id": 25107,
+                    "alginfo": "-1rkBiz-2pandora_classifier_hotrec_lr_model8-1rkScore-20.40067-1pn-21-1rcType-2PUBLISHID2I-1rcTrig-24075-1sceneId-29634-1abId-2109693",
+                    "meta_sam": "1007.18532.621.136422",
+                    "req_id": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "drawerid": "9959",
+                    "recext": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "meta_alginfo": "-1ab_id-2abid=138048,pvid=17947411+91d4+4de2+aec0+bca03bcbc069-1meta_match_id-2472231:2:HOME_PAGE:177-1mid-225734081,25258802,25652702-1rscore-20.0018921379232779145,0.0016316892579197884,0.0010549125727266073-1mc_sceneId-213708-1mc_abId-2136422",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "liangcang_25734081",
+                    "meta_req_id": "reqid=265a0d4a-8cc8-41d6-b68a-7da77ff86252",
+                    "sam": "1007.15166.611.109693",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "efbfbd6177efbfbd012c"
+              },
+              "mark": {
+                "data": {
+                  "color": "RED",
+                  "text": "独播"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14001
+          }
+        ],
+        "type": 14001,
+        "typeName": "PHONE_BASE_B"
+      }
+    ],
+    "style": {
+      "moduleTitleType": 1
+    }
+  },
+  {
+    "contentId": 9959,
+    "data": {
+      "keywords": [
+        {
+          "type": "TEXT",
+          "action": {
+            "extra": {
+              "mscode": "2019061000",
+              "parentChannelId": 100670,
+              "apiName": "mtop.youku.columbus.home.query",
+              "channelKey": "MOVIE",
+              "bizKey": "MAIN_TEST2",
+              "parentChannelTitle": "电影",
+              "nodeKey": "MOVIE",
+              "title": "电影",
+              "value": "100670",
+              "parentChannelKey": "MOVIE",
+              "channelId": "100670"
+            },
+            "report": {
+              "index": 1,
+              "pageName": "page_homeselect",
+              "scmAB": "20140719.manual",
+              "scmC": "9959",
+              "scmD": "channel_MOVIE",
+              "spmAB": "a2h04.8165646",
+              "spmC": "drawer4",
+              "spmD": "keyword1",
+              "trackInfo": {
+                "drawerid": "9959",
+                "bizKey": "MAIN_TEST2",
+                "sam": "1007.110529.614.138237",
+                "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+              }
+            },
+            "type": "JUMP_TO_CHANNEL",
+            "value": "MOVIE"
+          },
+          "text": "电影频道"
+        }
+      ],
+      "title": "正在热播"
+    },
+    "id": 9959,
+    "level": 1,
+    "more": false,
+    "template_name": "phone_base_b",
+    "nodes": [
+      {
+        "contentId": 25107,
+        "data": {
+          "enableNewLine": "0"
+        },
+        "id": 25107,
+        "level": 2,
+        "nodes": [
+          {
+            "contentId": "1099261663",
+            "data": {
+              "summary": "更新至54集",
+              "img": "http://liangcang-material.alicdn.com/prod/upload/4ac7571e24724291889591ec34b544af.jpg",
+              "popPreview": {
+                "favorId": "XNDM5NzA0NjY1Mg==",
+                "favorType": 1,
+                "title": "梅毅说中国史"
+              },
+              "summaryType": "UPDATE_STATUS",
+              "title": "中国史独播",
+              "subtitle": "推翻王莽政权第一功臣被冤死",
+              "action": {
+                "extra": {
+                  "mode": "full_horizontal",
+                  "showId": 442272
+                },
+                "report": {
+                  "index": 5,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "9959",
+                  "scmD": "video_XNDM5NzA0NjY1Mg==",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer4",
+                  "spmD": "zj1_5",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_B",
+                    "meta_match_id": "1099261663:1:HOME_PAGE:177",
+                    "meta_id": "liangcang_25535649",
+                    "component_instance_id": 25107,
+                    "alginfo": "-1rkBiz-2pandora_classifier_hotrec_lr_model8-1rkScore-20.40940-1pn-21-1rcType-2PUBLISHID2I-1rcTrig-24075-1sceneId-29634-1abId-2109693",
+                    "meta_sam": "1007.18532.621.136422",
+                    "req_id": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "drawerid": "9959",
+                    "recext": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "meta_alginfo": "-1ab_id-2abid=138048,pvid=17947411+91d4+4de2+aec0+bca03bcbc069-1meta_match_id-21099261663:1:HOME_PAGE:177-1mid-225535649,25535664,25535663-1rscore-29.152082493528724E+4,8.819467620924115E+4,8.174484828487039E+4-1mc_sceneId-213708-1mc_abId-2136422",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "liangcang_25535649",
+                    "meta_req_id": "reqid=265a0d4a-8cc8-41d6-b68a-7da77ff86252",
+                    "sam": "1007.15166.611.109693",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_VIDEO",
+                "value": "XNDM5NzA0NjY1Mg=="
+              },
+              "mark": {
+                "data": {
+                  "color": "RED",
+                  "text": "独播"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14001
+          },
+          {
+            "contentId": "472231",
+            "data": {
+              "summary": "更新至19集",
+              "img": "http://liangcang-material.alicdn.com/prod/upload/3e7e6db188ce4f9590c23cb88196bc4f.jpg",
+              "popPreview": {
+                "favorId": "efbfbd6177efbfbd012c",
+                "favorType": 0,
+                "title": "樊登讲论语 第一季"
+              },
+              "summaryType": "UPDATE_STATUS",
+              "title": "樊登讲论语自我和解",
+              "subtitle": "三十而立是要有自己的专长",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 6,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "9959",
+                  "scmD": "show_efbfbd6177efbfbd012c",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer4",
+                  "spmD": "zj1_6",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_B",
+                    "meta_match_id": "472231:2:HOME_PAGE:177",
+                    "meta_id": "liangcang_25734081",
+                    "component_instance_id": 25107,
+                    "alginfo": "-1rkBiz-2pandora_classifier_hotrec_lr_model8-1rkScore-20.40067-1pn-21-1rcType-2PUBLISHID2I-1rcTrig-24075-1sceneId-29634-1abId-2109693",
+                    "meta_sam": "1007.18532.621.136422",
+                    "req_id": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "drawerid": "9959",
+                    "recext": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "meta_alginfo": "-1ab_id-2abid=138048,pvid=17947411+91d4+4de2+aec0+bca03bcbc069-1meta_match_id-2472231:2:HOME_PAGE:177-1mid-225734081,25258802,25652702-1rscore-20.0018921379232779145,0.0016316892579197884,0.0010549125727266073-1mc_sceneId-213708-1mc_abId-2136422",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "liangcang_25734081",
+                    "meta_req_id": "reqid=265a0d4a-8cc8-41d6-b68a-7da77ff86252",
+                    "sam": "1007.15166.611.109693",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "efbfbd6177efbfbd012c"
+              },
+              "mark": {
+                "data": {
+                  "color": "RED",
+                  "text": "独播"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14001
+          }
+        ],
+        "type": 14001,
+        "typeName": "PHONE_BASE_B"
+      }
+    ],
+    "style": {
+      "moduleTitleType": 1
+    }
+  },
+  {
+    "contentId": 9959,
+    "data": {
+      "keywords": [
+        {
+          "type": "TEXT",
+          "action": {
+            "extra": {
+              "mscode": "2019061000",
+              "parentChannelId": 100670,
+              "apiName": "mtop.youku.columbus.home.query",
+              "channelKey": "MOVIE",
+              "bizKey": "MAIN_TEST2",
+              "parentChannelTitle": "电影",
+              "nodeKey": "MOVIE",
+              "title": "电影",
+              "value": "100670",
+              "parentChannelKey": "MOVIE",
+              "channelId": "100670"
+            },
+            "report": {
+              "index": 1,
+              "pageName": "page_homeselect",
+              "scmAB": "20140719.manual",
+              "scmC": "9959",
+              "scmD": "channel_MOVIE",
+              "spmAB": "a2h04.8165646",
+              "spmC": "drawer4",
+              "spmD": "keyword1",
+              "trackInfo": {
+                "drawerid": "9959",
+                "bizKey": "MAIN_TEST2",
+                "sam": "1007.110529.614.138237",
+                "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+              }
+            },
+            "type": "JUMP_TO_CHANNEL",
+            "value": "MOVIE"
+          },
+          "text": "电影频道"
+        }
+      ],
+      "title": "正在热播"
+    },
+    "id": 9959,
+    "level": 1,
+    "more": false,
+    "template_name": "phone_base_b",
+    "nodes": [
+      {
+        "contentId": 25107,
+        "data": {
+          "enableNewLine": "0"
+        },
+        "id": 25107,
+        "level": 2,
+        "nodes": [
+          {
+            "contentId": "1099261663",
+            "data": {
+              "summary": "更新至54集",
+              "img": "http://liangcang-material.alicdn.com/prod/upload/4ac7571e24724291889591ec34b544af.jpg",
+              "popPreview": {
+                "favorId": "XNDM5NzA0NjY1Mg==",
+                "favorType": 1,
+                "title": "梅毅说中国史"
+              },
+              "summaryType": "UPDATE_STATUS",
+              "title": "中国史独播",
+              "subtitle": "推翻王莽政权第一功臣被冤死",
+              "action": {
+                "extra": {
+                  "mode": "full_horizontal",
+                  "showId": 442272
+                },
+                "report": {
+                  "index": 5,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "9959",
+                  "scmD": "video_XNDM5NzA0NjY1Mg==",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer4",
+                  "spmD": "zj1_5",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_B",
+                    "meta_match_id": "1099261663:1:HOME_PAGE:177",
+                    "meta_id": "liangcang_25535649",
+                    "component_instance_id": 25107,
+                    "alginfo": "-1rkBiz-2pandora_classifier_hotrec_lr_model8-1rkScore-20.40940-1pn-21-1rcType-2PUBLISHID2I-1rcTrig-24075-1sceneId-29634-1abId-2109693",
+                    "meta_sam": "1007.18532.621.136422",
+                    "req_id": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "drawerid": "9959",
+                    "recext": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "meta_alginfo": "-1ab_id-2abid=138048,pvid=17947411+91d4+4de2+aec0+bca03bcbc069-1meta_match_id-21099261663:1:HOME_PAGE:177-1mid-225535649,25535664,25535663-1rscore-29.152082493528724E+4,8.819467620924115E+4,8.174484828487039E+4-1mc_sceneId-213708-1mc_abId-2136422",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "liangcang_25535649",
+                    "meta_req_id": "reqid=265a0d4a-8cc8-41d6-b68a-7da77ff86252",
+                    "sam": "1007.15166.611.109693",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_VIDEO",
+                "value": "XNDM5NzA0NjY1Mg=="
+              },
+              "mark": {
+                "data": {
+                  "color": "RED",
+                  "text": "独播"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14001
+          },
+          {
+            "contentId": "472231",
+            "data": {
+              "summary": "更新至19集",
+              "img": "http://liangcang-material.alicdn.com/prod/upload/3e7e6db188ce4f9590c23cb88196bc4f.jpg",
+              "popPreview": {
+                "favorId": "efbfbd6177efbfbd012c",
+                "favorType": 0,
+                "title": "樊登讲论语 第一季"
+              },
+              "summaryType": "UPDATE_STATUS",
+              "title": "樊登讲论语自我和解",
+              "subtitle": "三十而立是要有自己的专长",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 6,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "9959",
+                  "scmD": "show_efbfbd6177efbfbd012c",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer4",
+                  "spmD": "zj1_6",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_B",
+                    "meta_match_id": "472231:2:HOME_PAGE:177",
+                    "meta_id": "liangcang_25734081",
+                    "component_instance_id": 25107,
+                    "alginfo": "-1rkBiz-2pandora_classifier_hotrec_lr_model8-1rkScore-20.40067-1pn-21-1rcType-2PUBLISHID2I-1rcTrig-24075-1sceneId-29634-1abId-2109693",
+                    "meta_sam": "1007.18532.621.136422",
+                    "req_id": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "drawerid": "9959",
+                    "recext": "reqid=a16b8df3-0bca-40d0-9a48-d4688ab77a17#1574995315538",
+                    "meta_alginfo": "-1ab_id-2abid=138048,pvid=17947411+91d4+4de2+aec0+bca03bcbc069-1meta_match_id-2472231:2:HOME_PAGE:177-1mid-225734081,25258802,25652702-1rscore-20.0018921379232779145,0.0016316892579197884,0.0010549125727266073-1mc_sceneId-213708-1mc_abId-2136422",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "liangcang_25734081",
+                    "meta_req_id": "reqid=265a0d4a-8cc8-41d6-b68a-7da77ff86252",
+                    "sam": "1007.15166.611.109693",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "efbfbd6177efbfbd012c"
+              },
+              "mark": {
+                "data": {
+                  "color": "RED",
+                  "text": "独播"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14001
+          }
+        ],
+        "type": 14001,
+        "typeName": "PHONE_BASE_B"
+      }
+    ],
+    "style": {
+      "moduleTitleType": 1
+    }
+  },
+  {
+    "template_name": "phone_base_c",
+    "contentId": 14661,
+    "data": {
+      "session": {
+        "scmB": "manual",
+        "scmA": "20140719",
+        "scmC": "14661",
+        "spmA": "a2h04",
+        "spmC": "drawer7",
+        "spmB": "8165646",
+        "index": "7",
+        "id": "14661",
+        "pageName": "page_homeselect",
+        "preload": 0,
+        "scene": "home_drawer"
+      },
+      "title": "为你推荐",
+      "bizContext": {
+        "ucAdParams": {
+          "ucPreload": 1,
+          "adsPageNo": 5,
+          "isSync": 1
+        },
+        "mamaAdParams": {
+          "bd": "Xiaomi",
+          "isp": "%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8_46001",
+          "pid": "9a89d83e08103905",
+          "ua": "Mozilla%2F5.0+%28Linux%3B+Android+10%3B+MI+9+Build%2FQKQ1.190716.003%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F43.0.2357.65+Mobile+Safari%2F537.36",
+          "mac": "A8:9C:ED:9B:E6:E4",
+          "bt": "phone",
+          "rst": "mp4",
+          "osv": "10",
+          "aaid": "",
+          "dvh": "2340",
+          "net": "1000",
+          "oaid": "c71275cfe2d0b94a",
+          "avs": "8.0.8.9999",
+          "wintype": "mdevice",
+          "real_ipv4": "106.11.41.194",
+          "dvw": "1080",
+          "im": "",
+          "os": "Android",
+          "sver": "4.1.57",
+          "utdid": "XMvd3rMiyVYDALuV9UxugkP%2F",
+          "p": "2002",
+          "site": "1",
+          "stoken": "",
+          "mdl": "MI+9",
+          "aw": "a",
+          "aid": "a239cbd3aeb33b59",
+          "vs": "1.0"
+        },
+        "nodeSortType": "RCMD",
+        "preload": "1",
+        "userNodeKeyLastTime": "0"
+      },
+      "bizKey": "MAIN_TEST2",
+      "nodeKey": "SELECTION"
+    },
+    "id": 14661,
+    "level": 1,
+    "more": false,
+    "nodes": [
+      {
+        "contentId": 53227,
+        "data": {
+          "enableNewLine": "0"
+        },
+        "id": 53227,
+        "level": 2,
+        "nodes": [
+          {
+            "contentId": 489961,
+            "data": {
+              "summary": "05:32",
+              "img": "https://vthumb.ykimg.com/054101015DC943288B6C0693CB87367B",
+              "summaryType": "SECONDS",
+              "title": "康熙犀利拷问嘉宾情感状态",
+              "subtitle": "康熙回归探访明星好物",
+              "action": {
+                "extra": {
+                  "mode": "full_horizontal",
+                  "showId": 416789
+                },
+                "report": {
+                  "index": 1,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.manual",
+                  "scmC": "14661",
+                  "scmD": "video_XNDQzMjgzMDA2MA==",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_1",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "object_title": "康熙犀利拷问嘉宾情感状态",
+                    "drawerid": "14661",
+                    "bizKey": "MAIN_TEST2",
+                    "material_id": "plato_489961_39149db2bf55e304316b93793d321451",
+                    "sam": "1007.110529.614.138237",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_VIDEO",
+                "value": "XNDQzMjgzMDA2MA=="
+              }
+            },
+            "id": 489961,
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "308528",
+            "data": {
+              "summary": "58集全",
+              "img": "http://r1.ykimg.com/052600005D5F47EC8B74390AF400FD45",
+              "summaryType": "UPDATE_STATUS",
+              "title": "三生三世十里桃花",
+              "subtitle": "三世爱恨四海八荒",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 2,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_387477fb41a011e69c81",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_2",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "387477fb41a011e69c81"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "HDR"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "317679",
+            "data": {
+              "summary": "63集全",
+              "img": "http://r1.ykimg.com/052600005D5F48598B7439D6560A78C3",
+              "summaryType": "UPDATE_STATUS",
+              "title": "香蜜沉沉烬如霜 TV版",
+              "subtitle": "邓伦杨紫追爱千年",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 3,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_69efbfbdefbfbd343a00",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_3",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "69efbfbdefbfbd343a00"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "VIP"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "13339",
+            "data": {
+              "summary": "98集全",
+              "img": "http://r1.ykimg.com/052600005D0C9561425BD933A5E6CE34",
+              "summaryType": "UPDATE_STATUS",
+              "title": "新还珠格格",
+              "subtitle": "真假格格忙认亲",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 4,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_cbfc1d7a962411de83b1",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_4",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "cbfc1d7a962411de83b1"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "HDR"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "311688",
+            "data": {
+              "summary": "49集全",
+              "img": "http://r1.ykimg.com/052600005D2439D1425BD93525E96506",
+              "summaryType": "UPDATE_STATUS",
+              "title": "拥抱幸福",
+              "subtitle": "灰姑娘海陆追梦记",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 5,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_c4d9196da01311e6b9bb",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_5",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "c4d9196da01311e6b9bb"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "HDR"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          },
+          {
+            "contentId": "311944",
+            "data": {
+              "summary": "32集全",
+              "img": "http://r1.ykimg.com/052600005D142366425BD9189FEABD71",
+              "summaryType": "UPDATE_STATUS",
+              "title": "周末父母 TV版",
+              "subtitle": "刘恺威变暖心奶爸",
+              "action": {
+                "extra": {
+                  "politicsSensitive": false
+                },
+                "report": {
+                  "index": 6,
+                  "pageName": "page_homeselect",
+                  "scmAB": "20140719.rcmd",
+                  "scmC": "14661",
+                  "scmD": "show_8d92e544a7b911e68fae",
+                  "spmAB": "a2h04.8165646",
+                  "spmC": "drawer7",
+                  "spmD": "zj1_6",
+                  "trackInfo": {
+                    "component_id": "PHONE_BASE_C",
+                    "component_instance_id": 53227,
+                    "alginfo": "-1pn-21-1rcTable-2yk_2yr_trg_u2i_final_wq_reduce-1model-21-1rcType-2PRELOAD-1abId-2150904-1sceneId-213684",
+                    "req_id": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "drawerid": "14661",
+                    "recext": "reqid=291cf097-7aee-4a54-9b33-4f0148390a1c#1574995315541",
+                    "bizKey": "MAIN_TEST2",
+                    "sam": "1007.110529.614.150904",
+                    "cms_req_id": "f3a77da2-0140-49e2-9ce1-822969a46bbe"
+                  }
+                },
+                "type": "JUMP_TO_SHOW",
+                "value": "8d92e544a7b911e68fae"
+              },
+              "mark": {
+                "data": {
+                  "color": "YELLOW",
+                  "text": "HDR"
+                },
+                "type": "SIMPLE"
+              }
+            },
+            "level": 3,
+            "type": 14002
+          }
+        ],
+        "type": 14002,
+        "typeName": "PHONE_BASE_C"
+      }
+    ],
+    "style": {
+      "moduleTitleType": 1
+    },
+    "type": 15011
   }
 ]
