@@ -55,12 +55,15 @@ public class MainActivity extends BaseActivity {
         itemData.action = "demo://android/animators";
         itemDataList.add(itemData);
 
-
         itemData = new ListItemData();
         itemData.title = "yoga";
         itemData.action = "demo://android/yoga";
         itemDataList.add(itemData);
 
+        itemData = new ListItemData();
+        itemData.title = "UI框架";
+        itemData.action = "demo://android/ui";
+        itemDataList.add(itemData);
 
         return itemDataList;
     }

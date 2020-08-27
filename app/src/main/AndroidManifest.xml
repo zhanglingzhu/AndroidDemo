@@ -73,6 +73,34 @@
                     android:path="/yoga"/>
             </intent-filter>
         </activity>
+        <activity android:name=".UiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="demo"
+                    android:host="android"
+                    android:path="/ui"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".tablayout.TabLayoutTestActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="demo"
+                    android:host="android"
+                    android:path="/tabLayout"
+                    />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,117 @@
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UiActivity">
+
+    <TextView
+        android:id="@+id/input_text_desc"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="9dp"
+        android:textSize="15dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/emojiconsContainer">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <Button
+                android:id="@+id/input_btn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="9dp"
+                android:text="表情"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/inputText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@id/input_btn"
+                android:background="#FF666666"
+                android:hint="输入框"
+                android:textColorHint="#FF999999"
+                android:textSize="17dp" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/emojicons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"></RelativeLayout>
+
+</LinearLayout>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:showIn="@layout/activity_main">
+
+<LinearLayout
+    android:id="@+id/emojicons_container"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="left|top"
+        android:padding="8dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/input_btn"
+        android:background="#FF666666"
+        android:hint="输入框"
+        android:textColorHint="#FF999999"
+        android:textSize="17dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/input_btn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:padding="8dip"
+            android:src="@drawable/uikit_em_1" />
+    </LinearLayout>
+</LinearLayout>
+
+<RelativeLayout
+    android:id="@+id/emojicons_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"></RelativeLayout>
+</LinearLayout>

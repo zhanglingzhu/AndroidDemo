@@ -59,5 +59,11 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.9.0'
     implementation 'com.github.bumptech.glide:compiler:4.9.0'
 
+    //debugImplementation 'com.github.whataa:pandora:2.0.6'
+
+    implementation 'com.github.whataa:pandora-no-op:2.0.3'
+
+    //releaseImplementation 'com.github.whataa:pandora-no-op:2.0.3'
+
 
 }

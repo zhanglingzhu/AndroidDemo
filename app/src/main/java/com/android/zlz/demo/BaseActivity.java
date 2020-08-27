@@ -22,10 +22,11 @@ public abstract class BaseActivity extends AppCompatActivity {
             setTheme(R.style.AppTheme_NoActionBar);
         }
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.yk_title_back_dark);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-
+        if (getSupportActionBar() != null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setHomeAsUpIndicator(R.drawable.yk_title_back_dark);
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
+        }
     }
 
     @Override
